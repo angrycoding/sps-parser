@@ -1,10 +1,7 @@
 # sps-parser
 H.264 sequence param parser (sps) written in pure C with no dependencies.
-Sequence parameter set is decribed somewhere in here: https://tools.ietf.org/html/rfc3984
-
-![SPS in details](https://raw.githubusercontent.com/angrycoding/sps-parser/master/sps.png)
-
-Primary use is for obtaining stream dimensions, but you can take it as a boilerplate and extract anything you need (fps and god knows what else is there). Usage:
+Sequence parameter set is decribed somewhere in here: https://tools.ietf.org/html/rfc3984 (see below for more detailed format description).
+Primary use is for obtaining stream dimensions, but you can take it as a boilerplate and extract anything you need (fps and god knows what else is there).  Usage:
 
 ```c
 int main(int argc , char *argv[]) {
@@ -24,3 +21,6 @@ int main(int argc , char *argv[]) {
 	printf("width = %d\nheight = %d\n", dimensions >> 16, dimensions & 0xFFFF);
 }
 ```
+
+![SPS in details](https://raw.githubusercontent.com/angrycoding/sps-parser/master/sps.png)
+
