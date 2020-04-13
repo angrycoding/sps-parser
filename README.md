@@ -1,7 +1,5 @@
 # sps-parser
-H.264 sequence param parser (sps) written in pure C with no dependencies.
-
-usage:
+H.264 sequence param parser (sps) written in pure C with no dependencies. Primary use is for obtaining stream dimensions, but you can take it as a boilerplate and extract anything you need (fps and god knows what else is there). Usage:
 
 ```c
 int main(int argc , char *argv[]) {
