@@ -1,3 +1,12 @@
+#  💜If you like my projects, you can support me.
+
+| Coin/Symbol | Network | Adress |
+|------|---------|--------|
+| Bitcoin (BTC) | BTC | 1LU7DtLiKkWe3aAXbhRhNAMUFdrapWuAHW |
+| Tether (USDT) | TRC20 | TK7f7TXozWVbkHxdArAJd2rELu725q1Ac5 |
+| Tether (USDT) | TON | UQDI4e7xm_B7O_REaYd5CoyEz1Ki08t0EPlUim022_K9B2xa |
+
+
 # sps-parser
 H.264 sequence param parser (sps) written in pure C with no dependencies.
 Sequence parameter set is decribed somewhere in here: https://tools.ietf.org/html/rfc3984 (see below for more detailed format description).
